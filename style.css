@@ -1,0 +1,41 @@
+.svg-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quad {
+    fill: red;
+    stroke: navy;
+    stroke-width: 5px;
+}
+
+.animated-rectangle {
+    fill: yellow;
+    stroke: goldenrod;
+    stroke-width: 5px;
+    animation: bordercolorchange 3s infinite;
+}
+
+@keyframes bordercolorchange {
+    0% {
+        fill: yellow;
+        stroke: goldenrod;
+    }
+    100% {
+        fill: goldenrod;
+        stroke: yellow;
+    }
+}
+
+.circle {
+    fill: salmon;
+    stroke: purple;
+    stroke-width: 5px;
+}
+
+.ellipse {
+    fill: orange;
+    stroke: aqua;
+    stroke-width: 5px;
+}
